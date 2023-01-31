@@ -1,0 +1,265 @@
+body
+{
+    background-image: url(https://i.pinimg.com/originals/6e/ab/d5/6eabd5d02a5a40e5647e13e66ad3189e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background: linear-gradient(rgb(202, 155, 163),white);
+}
+
+nav .logo p
+{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color:black;
+    text-transform: lowercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+ nav ul
+{
+    float: right;
+}
+ nav li
+{
+    display: inline-block;
+    list-style: none;
+}
+ nav li a
+ {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+ }
+ nav li a:hover
+ {
+    color: aliceblue;
+    transition: all 0.4 ease 0;
+ }
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+.biodata h1
+{
+    text-align: center;
+}
+.img_syafira
+{
+    width: 220px;
+    height: 250px;
+    display:block;
+    margin: 0px auto;
+    margin-top: 2%;
+    border-radius: 20%;
+}
+.img_family
+{
+    width: 350px;
+    height: 300px;
+    display:block;
+    margin: 0px auto;
+    margin-top: 2%;
+    border-radius: 20%;
+}
+.IMGFIRA
+{
+    width: 220px;
+    height: 250px;
+    margin: 10px auto;
+    padding-left: 2%;
+    border-radius: 60%;
+}
+
+.personal.information
+{
+    float:left;
+    width: 50%;
+    height: 310px;
+    padding-left: 40px;
+    letter-spacing: 2px;
+}
+
+.parents.information
+{
+    float: right;
+    width: 40%;
+    height: 400px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+.contact
+{
+    float:left;
+    width: 70%;
+    height: 400px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.academic-background
+{
+    width: 70%;
+    height: 400px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+.experience
+{
+    float:left;
+    width: 50%;
+    height: 400px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Family
+{
+    float:center;
+    width: 80%;
+    height: 200px;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+    table, tr, td, th
+    {
+        border-collapse: collapse;
+        border: 1px solid blue; 
+    }
+
+    tr
+    {
+        background-color: aquamarine;
+    }
+
+    th
+    {
+        background-color: orange;
+    }
+
+    tr:nth-child(odd)
+    {
+        background-color: ghostwhite;
+    }
+
+    tr:hover
+    {
+        background-color: gold;
+    }
+
+    div.menu
+    {
+        float:left;
+        height: 200px;
+        width: 75%;
+        background-color: brown;
+    }
+    div.slider
+    {
+        float:left;
+        height: 650px;
+        width: 100%;
+        background-color: pink;
+        text-align: center;
+        padding-top: 50%;
+    }
+
+    div.kotak1
+    {
+        float:right;
+        height: 220px;
+        width: 30%;
+        background-color: rgb(151, 190, 235);
+        text-align: justify;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+    }
+    div.kotak2
+    {
+        float:left;
+        width:25%;
+        height: 400px;
+        background-color: darkslategray;
+    }
+    div.kotak3
+    {
+        float:left;
+        width:25%;
+        height:400px;
+        background-color: dimgray;
+    }
+    div.kotak4
+    {
+        float:left;
+        width:25%;
+        height:400px;
+        background-color: indianred;
+    }
+    div.content
+    {
+        float:left;
+        width:100%;
+        height: 500px;
+    }
+    div.copyright
+    {
+        float:left;
+        width:100%;
+        height:100px;
+        background-color: ivory;
+    }
+
+ul
+{
+    list-style-type: circle;
+}
+ol
+{
+    list-style-type: lower-alpha;
+}
+
